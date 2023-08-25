@@ -1,0 +1,82 @@
+body,h1,h2,p,label,input,
+button{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 234, 219);
+   background-image:url("https://static.vecteezy.com/system/resources/thumbnails/004/968/002/small/cute-abstract-modern-background-free-vector.jpg" );
+   background-repeat: no repeat;
+   background-size:cover ;
+}
+
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+
+}
+main{
+    padding: 2rem;
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+}
+.signup-form, .signin-form{
+    max-width: 300px;
+    margin: 0 auto;
+   
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0f0d0d;
+    border-radius: 3px;
+    border-style: dashed;
+    border-width: 1px;
+}
+button{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #3f3939;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #131212;
+}
+a{
+    color:#242222;
+    text-decoration: none;
+}
+.abc{
+    background-color: rgba(0,0,0,0.137);
+    border-radius: 10px;
+    max-width: 1000px;
+    max-height: 600px;
+    margin: auto;
+    padding-right: 50px;
+}
